@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_trabalhe.css">
+    <!--Fonte Open Sans & Roboto-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <title>Shoes - trabalhe conosco</title>
+</head>
+<body>
+    <header>
+        <div class="wrapper">
+            <h1>
+                <a href="index.html">
+                    <img src="./images/shoes-logo.png"/>
+                </a>
+            </h1>
+            <nav>
+                <a href="#">TODOS OS PRODUTOS</a>
+                <a href="#">COLEÇÕES</a>
+                <a href="#">OUTLET</a>
+            </nav>
+        </div>
+    </header>
+    <content>
+        <div class="wrapper">
+            <h2>Faça parte do nosso time</h2>
+            <div class="formulario">
+                <form>
+                    <label for="nome" value="Nome"><p>Nome</p>    
+                    </label>
+                    <input id="nome" type="text" class="input_text" placeholder="digite seu nome" required>
+                    <label for="email" value="Email"><p>Email</p>    
+                    </label>
+                    <input id="email" type="email" class="input_text" name="email" placeholder="informe um email valido" required>
+                    <label for="telefone" value="Telefone" ><p>Telefone</p>
+                        <input id="telefone" type="text" class="input_text" name="telefone" placeholder="(xx)9xxxx-xxxx" required>
+                    </label>
+                    <label for="departamentos" value="Departamentos"><p>Departamentos</p>
+                        <select id="departamentos" class="input_text" name="departamentos">
+                            <option value="rh">RH</option>
+                            <option value="vendedor">Vendedor</option>
+                            <option value="tecnologia">T.I</option>
+                            <option value="pacote">Pacote</option>
+                        </select>
+                    </label>
+                    <p class="form_desc">
+                        Disponibilidade
+                    </p>
+                    <label for="integral">
+                        <input id="integral" type="checkbox" value="integral" name="check_disponivel" checked>
+                        <small>Integral (8hr)</small>
+                    </label>
+                    <label for="meio_periodo">
+                        <input id="meio_periodo" type="checkbox" value="meio_periodo" name="check_disponivel">
+                        <small>Meio Período (4h)</small>
+                    </label>
+                    <label for="freelancer">
+                        <input id="freelancer" type="checkbox" value="freelancer" name="check_disponivel">
+                        <small>Freelancer</small>
+                    </label>
+                    <p class="form_desc">
+                        Qual a melhor forma para entrarmos em contato com você?
+                    </p>
+                    <label for="melhor_email">
+                        <input id="melhor_email" type="radio" value="melhor_email" name="melhor_contato">
+                        <small>Email</small> 
+                    </label>
+                    <label for="melhor_ligar">
+                        <input id="melhor_ligar" class="margin_left" type="radio" value="melhor_ligar" name="melhor_contato" checked>
+                        <small>Ligação</small>
+                    </label>
+                    <label for="melhor_whats">
+                        <input id="melhor_whats" class="margin_left" type="radio" value="melhor_whats" name="melhor_contato">
+                        <small>WhatsApp</small>
+                    </label>
+                    <div class="mensagem">
+                        <label for="mensagem"><p>Mensagem</p>
+                            <textarea id="mensagem" name="mensagem" rows="5"></textarea>  
+                        </label>
+                    </div>
+                    <div class="curriculo">
+                        <label for="curriculo">Curriculo
+                            <input id="curriculo" type="file" name="curriculo" accept=".doc, .docx, .pdf">
+                        </label>
+                    </div>
+                    <button type="submit" class="button_enviar">enviar</button>
+                </form>
+            </div>
+            <div class="sobre">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel expedita error quod fugiat, quis, 
+                    iusto aut cum molestiae saepe dicta veritatis, necessitatibus numquam aliquid delectus omnis 
+                    repellat reiciendis corporis doloribus.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam obcaecati enim voluptatem
+                    quod porro dolorum assumenda fugiat, iure alias minima. Minima quae saepe dolorum ratione modi sunt ullam odit exercitationem?
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. At atque sint, similique exercitationem maxime placeat praesentium 
+                    ipsam dolore, beatae non doloribus? Adipisci, ullam neque. Quasi laudantium tempora fugit ullam corporis.
+                </p>
+            </div>
+        </div>
+    </content>
+    <footer>
+        <div class="wrapper">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/shoes-logo-white.png" alt="">
+                </a>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia magnam, ipsam placeat ullam tempore corporis. Esse animi facilis pariatur facere provident.</p>
+            </div>
+            <div class="footer_links">
+                <div class="coluna">
+                    <h5>categorias</h5>
+                    <a href="#">sandálias</a>
+                    <a href="#">botas</a>
+                    <a href="#">tênis</a>
+                    <a href="#">oxford</a>
+                    <a href="#">coturnos</a>
+                </div>
+                <div class="coluna">
+                    <h5>institucional</h5>
+                    <a href="#">sobre nós</a>
+                    <a href="#">oerguntas frequentes</a>
+                    <a href="#">politica de privacidade</a>
+                    <a href="#">rastreamento de pedidos</a>
+                    <a href="trabalhe.html">trabalhe conosco</a>
+                    <a href="#">contato</a>
+                </div>
+            </div>
+        </div>
+    </footer> 
+</body>
+</html>

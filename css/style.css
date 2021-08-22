@@ -1,0 +1,191 @@
+html, body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header{
+    box-shadow: 2px 0 5px darkgray;
+}
+
+.wrapper{
+    text-align: center;
+    margin: 0 auto;
+    max-width: 1400px;
+}
+
+header .wrapper{
+    box-sizing: border-box;
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+}
+
+header .wrapper h1{
+    margin: 9px 10px;
+}
+
+header .wrapper nav{
+    margin-top: 44px;
+}
+header .wrapper nav a{
+    color: #777;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-right: 50px;   
+}
+
+content .banner{
+    align-items: center;
+    background-color: #DCBB99;
+    color: white;
+    display: flex;
+}
+
+content .banner img{
+    margin-right: 60px;
+}
+
+content .frase{
+    background-image: url("../images/icon1.png");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    font-weight: 700;
+    padding-top: 85px;
+    text-align: center;
+    width: 200px;
+}
+
+content .frase .icone2{
+    background-image: url("..images/icon2.png");
+}
+content .frase .icone3{
+    background-image: url("..images/icon3.png");
+}
+
+content .destaque h2{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 81px;
+}
+
+content .destaque .container_destaque{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+content .vitrine{
+    background-color: #C2185B;
+    height: 660px;
+    margin-top: 80px;
+}
+
+content .vitrine h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 800;
+    padding-top: 50px;
+    
+}
+
+content .vitrine .container_vitrine{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+content .vitrine .card{
+    background-color: #fff;
+    height: 388px;
+    width: 260px;
+}
+
+content .vitrine .card a{
+    text-decoration: none;
+}
+
+content .vitrine .card p{
+    color:black;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+    line-height: 22px;
+}
+content .vitrine .card small{
+    font-weight: 400;
+}
+
+content .produto_destaque h3{
+    font-size: 39px;
+    font-weight: 600;
+    width: 500px;
+    text-align: left;
+}
+
+content .produto_destaque a{
+    color:white;
+    background-color: #C2185B;
+    padding: 30px 100px;
+    text-decoration:none;
+    box-sizing: border-box;  
+    width:400px; 
+}
+
+content .produto_destaque_container{
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-top: 30px;
+    width:500px;
+}
+
+content .destaque_container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+footer .wrapper{ 
+    background-color: #C2185B;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 80px;
+}
+
+footer .wrapper .logo{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+    width: 400px;
+}
+
+footer .wrapper .footer_links{
+    display: flex;
+    padding-bottom: 20px;
+}
+
+footer .wrapper .footer_links .coluna{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    text-align: left;
+}
+
+footer .wrapper .footer_links .coluna h5{
+    font-weight: 700;
+    font-size: 20px;
+}
+footer .wrapper .footer_links .coluna a{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    
+}
+
+
