@@ -117,18 +117,29 @@ content .vitrine .card small{
     font-weight: 400;
 }
 
+content .produto_destaque{
+    display: flex;
+    justify-content: space-around;
+    margin: 160px auto 100px;
+    align-items: stretch;
+}
+
 content .produto_destaque h3{
     font-size: 39px;
     font-weight: 600;
+    margin: 0;
     width: 500px;
     text-align: left;
 }
 
 content .produto_destaque a{
-    color:white;
     background-color: #C2185B;
-    padding: 30px 100px;
+    color:white;
+    font-size: 39px;
+    font-weight: 600;
+    padding: 20px 60px;
     text-decoration:none;
+    margin: 40px 0  ;
     box-sizing: border-box;  
     width:400px; 
 }
@@ -136,16 +147,9 @@ content .produto_destaque a{
 content .produto_destaque_container{
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-    margin-top: 30px;
     width:500px;
 }
 
-content .destaque_container{
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-around;
-}
 
 footer .wrapper{ 
     background-color: #C2185B;
