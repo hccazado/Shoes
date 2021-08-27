@@ -127,6 +127,13 @@ content .wrapper .formulario .button_enviar{
     height: 33px;
     margin-top: 22px;;
     width: 100%;
+    transition:
+        background-color 3s, color 3s;
+}
+
+content .wrapper .formulario .button_enviar:hover{
+    background-color: #fff;
+    color: #C2185B;
 }
 
 content .wrapper .sobre{
